@@ -2,6 +2,7 @@
   "name": "unity-build-automation-mcp",
   "version": "0.0.1",
   "description": "MCP server for Unity Build Automation (Cloud Build) API",
+  "license": "MIT",
   "type": "module",
   "bin": {
     "unity-build-automation-mcp": "dist/index.js"

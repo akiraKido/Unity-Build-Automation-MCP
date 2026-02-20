@@ -1,0 +1,27 @@
+{
+  "name": "unity-build-automation-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Unity Build Automation (Cloud Build) API",
+  "type": "module",
+  "bin": {
+    "unity-build-automation-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "^3.23"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "shx": "^0.3.4",
+    "typescript": "^5.5"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "unity-build-automation-mcp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "MCP server for Unity Build Automation (Cloud Build) API",
   "type": "module",
   "bin": {

@@ -54,7 +54,8 @@ claude mcp add unity-build -- npx -y unity-build-automation-mcp
       "command": "npx",
       "args": ["-y", "unity-build-automation-mcp"],
       "env": {
-        "UNITY_BUILD_API_KEY": "<your-api-key>"
+        "UNITY_BUILD_API_KEY": "<your-api-key>",
+        "UNITY_BUILD_ORG_ID": "<your-org-id>"
       }
     }
   }
@@ -70,7 +71,8 @@ claude mcp add unity-build -- npx -y unity-build-automation-mcp
       "command": "node",
       "args": ["<path-to-repo>/dist/index.js"],
       "env": {
-        "UNITY_BUILD_API_KEY": "<your-api-key>"
+        "UNITY_BUILD_API_KEY": "<your-api-key>",
+        "UNITY_BUILD_ORG_ID": "<your-org-id>"
       }
     }
   }
